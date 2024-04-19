@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Exame Psicotecnico</string>
+    <string name="sBemVindo">Bem-Vindo!</string>
+    <string name="sDescricao">Esta é uma reprodução do clássico "Exame Psicotecnico com Figuras" aplicado pelo Detran.</string>
+    <string name="sIniciar">INICIAR TESTE</string>
+    <string name="altA">Alternativa A</string>
+    <string name="altB">Alternativa B</string>
+    <string name="altC">Alternativa C</string>
+    <string name="altD">Alternativa D</string>
+    <string name="q1">Questão 1</string>
+    <string name="q2">Questão 2</string>
+    <string name="q3">Questão 3</string>
+    <string name="q4">Questão 4</string>
+    <string name="q5">Questão 5</string>
+    <string name="q6">Questão 6</string>
+    <string name="q7">Questão 7</string>
+    <string name="q8">Questão 8</string>
+    <string name="questT1">Marque a figura relacionada:</string>
+    <string name="questT2">Marque a figura que completa a sequência:</string>
+    <string name="questT3">Marque a figura correspondente:</string>
+    <string name="questT4">Marque a figura que não se relaciona:</string>
+    <string name="sConcluido">Teste concluído!</string>
+    <string name="sCarregando">Calculando sua pontuação...</string>
+    <string name="sResultado">Sua pontuação:</string>
+    <string name="sQuantQuest"> de 18</string>
+    <string name="sEscolha">Escolha uma opção</string>
+    <string name="iddoapp">ca-app-pub-9218769381944425~7120876774</string>
+    <string name="iddobanner">ca-app-pub-9218769381944425/9573093376</string>
+    <!--string name="iddobanner2">ca-app-pub-9218769381944425/3445904384</string-->
+    <string name="idinteresticial">ca-app-pub-9218769381944425/2459129925</string>
+    <!--Test banner: ca-app-pub-3940256099942544/6300978111
+    Test Intersticial: ca-app-pub-3940256099942544/1033173712
+    Intersticial: ca-app-pub-9218769381944425/2459129925
+    Banner: ca-app-pub-9218769381944425/9573093376-->
+
+
+    <string name="stringQ9">Questão 9</string>
+    <string name="questaoTipo1">Marque a figura que não se relaciona:</string>
+    <string name="q1aA">Alternativa A</string>
+    <string name="q1aB">Alternativa B</string>
+    <string name="q1aC">Alternativa C</string>
+    <string name="q1aD">Alternativa D</string> <!--Correta-->
+    <string name="q1aE">Alternativa E</string>
+
+    <string name="stringQ10">Questão 10</string>
+    <string name="questaoTipo2">Qual a sequência correta:</string>
+    <string name="q2aA">A) 2 -> 5 -> 1 -> 3 -> 4</string>
+    <string name="q2aB">B) 3 -> 1 -> 5 -> 2 -> 4</string>
+    <string name="q2aC">C) 5 -> 4 -> 2 -> 1 -> 3</string>
+    <string name="q2aD">D) 4 -> 2 -> 5 -> 1 -> 3</string> <!--Correta-->
+    <string name="q2aE">E) 1 -> 3 -> 4 -> 5 -> 2</string>
+
+    <string name="stringQ11">Questão 11</string>
+    <string name="questaoTipo3">Marque a alternativa correta:</string>
+    <string name="q3aA">A) Sete Setes</string>
+    <string name="q3aB">B) Cinco Cincos</string>
+    <string name="q3aC">C) Oito Oitos</string>
+    <string name="q3aD">D) Nove Noves</string>
+    <string name="q3aE">E) A alternativa B é a única correta</string> <!--Correta-->
+
+    <string name="stringQ12">Questão 12</string>
+    <string name="questaoTipo4">Complete a sequência:</string>
+    <!--Alternativas iguais a questão 1 ; B é a Correta-->
+
+    <string name="stringQ13">Questão 13</string>
+    <string name="questaoTipo5">Qual palavra se relaciona com todas:</string>
+    <string name="q5aA">A) ORNA</string>
+    <string name="q5aB">B) ENTE</string> <!--Correta-->
+    <string name="q5aC">C) IZA</string>
+    <string name="q5aD">D) ANTA</string>
+    <string name="q5aE">E) ERA</string>
+
+    <string name="stringQ14">Questão 14</string>
+    <string name="questaoTipo6">Qual o número comum às 3 figuras:</string>
+    <string name="q6aA">A) 1</string>
+    <string name="q6aB">B) 4</string> <!--Correta-->
+    <string name="q6aC">C) 6</string>
+    <string name="q6aD">D) 2</string>
+    <string name="q6aE">E) 5</string>
+
+    <string name="stringQ15">Questão 15</string>
+    <!--Tudo igual a questão 1 ; E é a Correta-->
+
+    <string name="stringQ16">Questão 16</string>
+    <!--Pergunta tipo 5-->
+    <string name="q8aA">A) ITO</string>
+    <string name="q8aB">B) USA</string>
+    <string name="q8aC">C) OLA</string>
+    <string name="q8aD">D) ETA</string> <!--Correta-->
+    <string name="q8aE">E) ARO</string>
+
+    <string name="stringQ17">Questão 17</string>
+    <!--Pergunta tipo 2-->
+    <string name="q9aA">A) 7, 7, 7</string>
+    <string name="q9aB">B) 8, 7, 7</string>
+    <string name="q9aC">C) 8, 8, 8</string>
+    <string name="q9aD">D) 6, 7, 8</string>
+    <string name="q9aE">E) 7, 8, 7</string> <!--Correta-->
+
+    <string name="stringQ18">Questão 18</string>
+    <!--Pergunta tipo 5-->
+    <string name="q10aA">A) UNA</string>
+    <string name="q10aB">B) ENA</string>
+    <string name="q10aC">C) ITO</string>
+    <string name="q10aD">D) ERA</string> <!--Correta-->
+    <string name="q10aE">E) ATA</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margem"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <!--Ad view aqui, fixado no topo e tvNumeroQuestao "below" ele-->
+
+    <TextView
+        android:id="@+id/tvNumeroQuestao"
+        android:text="SIMULADO DETRAN"
+        android:textSize="@dimen/title"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margem"/>
+
+    <ImageView
+        android:id="@+id/ivImagemQuestao"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@id/tvNumeroQuestao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margem"/>
+
+    <TextView
+        android:id="@+id/tvTextoQuestao"
+        android:gravity="center"
+        android:text="Banco de questões sobre\n*TEMA DO SIMULADO*\n para você se preparar para a sua prova.\nEscolha a quantidade de questões e clique abaixo em ''Iniciar Teste'' para começar."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/texto"
+        android:layout_below="@id/ivImagemQuestao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margem"/>
+
+    <RadioGroup
+        android:layout_below="@id/tvTextoQuestao"
+        android:visibility="invisible"
+        android:id="@+id/rgOpcoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbA"
+            android:textSize="@dimen/texto"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <RadioButton
+            android:id="@+id/rbB"
+            android:textSize="@dimen/texto"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"/>
+
+        <RadioButton
+            android:id="@+id/rbC"
+            android:textSize="@dimen/texto"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"/>
+
+        <RadioButton
+            android:id="@+id/rbD"
+            android:textSize="@dimen/texto"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <RadioButton
+            android:id="@+id/rbE"
+            android:textSize="@dimen/texto"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvQuantQuest"
+        android:text="X Questões"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="@dimen/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sbQuantQuest"/>
+    <SeekBar
+        android:id="@+id/sbQuantQuest"
+        android:padding="@dimen/margem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bProxima"/>
+    <Button
+        android:id="@+id/bProxima"
+        android:text="INICIAR TESTE"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

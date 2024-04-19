@@ -2,6 +2,27 @@
 .gradle/
 build/
 
+# Questoes temporarias
+app/src/main/java/com/rotech/examepsicotecnico/Questao1.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao2.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao3.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao4.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao5.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao6.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao7.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao8.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao9.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao10.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao11.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao12.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao13.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao14.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao15.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao16.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao17.java
+app/src/main/java/com/rotech/examepsicotecnico/Questao18.java
+
+
 # Local configuration file (sdk path, etc)
 local.properties
 
@@ -31,3 +52,23 @@ google-services.json
 
 # Android Profiling
 *.hprof
+app/release/app-release.aab
+app/release/app.aab
+app/src/main/res/layout/activity_questao1.xml
+app/src/main/res/layout/activity_questao2.xml
+app/src/main/res/layout/activity_questao3.xml
+app/src/main/res/layout/activity_questao4.xml
+app/src/main/res/layout/activity_questao5.xml
+app/src/main/res/layout/activity_questao6.xml
+app/src/main/res/layout/activity_questao7.xml
+app/src/main/res/layout/activity_questao8.xml
+app/src/main/res/layout/activity_questao9.xml
+app/src/main/res/layout/activity_questao10.xml
+app/src/main/res/layout/activity_questao11.xml
+app/src/main/res/layout/activity_questao12.xml
+app/src/main/res/layout/activity_questao13.xml
+app/src/main/res/layout/activity_questao14.xml
+app/src/main/res/layout/activity_questao15.xml
+app/src/main/res/layout/activity_questao16.xml
+app/src/main/res/layout/activity_questao17.xml
+app/src/main/res/layout/activity_questao18.xml

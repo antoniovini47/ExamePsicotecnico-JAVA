@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margem">16dp</dimen>
+    <dimen name="texto">16sp</dimen>
+    <dimen name="textos">16sp</dimen>
+    <dimen name="pontos">16sp</dimen>
+    <dimen name="title">32sp</dimen>
+    <dimen name="titulos">32sp</dimen>
+    <dimen name="imagem">16sp</dimen>
+    <dimen name="fab">16sp</dimen>
+</resources>

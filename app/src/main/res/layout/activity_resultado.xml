@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_resultado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margem"
+    android:paddingLeft="@dimen/margem"
+    android:paddingRight="@dimen/margem"
+    android:paddingTop="@dimen/margem"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/backgroud"
+    tools:context=".Resultado">
+
+    <!--com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/iddobanner2"/-->
+
+    <TextView
+        android:id="@+id/tvpq"
+        android:gravity="bottom|center"
+        android:text="@string/sConcluido"
+        android:textColor="@color/titulo"
+        android:paddingTop="@dimen/margem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/titulos"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:text="@string/sCarregando"
+        android:textColor="@color/texto"
+        android:textSize="@dimen/pontos"
+        android:gravity="top|center"
+        android:paddingTop="@dimen/margem"
+        android:layout_below="@id/tvpq"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/iddobanner"/>
+</LinearLayout>

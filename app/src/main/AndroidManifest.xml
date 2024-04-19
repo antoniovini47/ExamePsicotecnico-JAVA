@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution">
+    <dist:module dist:instant="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Questao18" />
+        <activity android:name=".Questao17" />
+        <activity android:name=".Questao16" />
+        <activity android:name=".Questao15" />
+        <activity android:name=".Questao14" />
+        <activity android:name=".Questao13" />
+        <activity android:name=".Questao12" />
+        <activity android:name=".Questao11" />
+        <activity android:name=".Questao10" />
+        <activity android:name=".Questao9" />
+        <activity android:name=".Resultado" />
+        <activity android:name=".Questao8" />
+        <activity android:name=".Questao7" />
+        <activity android:name=".Questao6" />
+        <activity android:name=".Questao5" />
+        <activity android:name=".Questao4" />
+        <activity android:name=".Questao3" />
+        <activity android:name=".Questao2" />
+        <activity android:name=".Questao1" />
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/iddoapp" />
+    </application>
+
+</manifest>
