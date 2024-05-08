@@ -72,3 +72,7 @@ app/src/main/res/layout/activity_questao15.xml
 app/src/main/res/layout/activity_questao16.xml
 app/src/main/res/layout/activity_questao17.xml
 app/src/main/res/layout/activity_questao18.xml
+
+# Others
+/app/src/androidTest
+/app/src/test
