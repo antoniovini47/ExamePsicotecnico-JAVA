@@ -74,5 +74,5 @@ app/src/main/res/layout/activity_questao17.xml
 app/src/main/res/layout/activity_questao18.xml
 
 # Others
-/app/src/androidTest
-/app/src/test
+/app/src/androidTest/java/com/rotech/examepsicotecnico/ExampleInstrumentedTest.java
+/app/src/test/java/com/rotech/examepsicotecnico/ExampleInstrumentedTest.java
