@@ -1,2 +1,2 @@
 # ExamePsicotecnico
-Projeto de um simudo de exame psicotécnico do detran.
+Projeto de um simulado de exame psicotécnico do detran.
